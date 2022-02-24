@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(MyOpenCVProject)
-
-# Copy resouce
-# file(COPY ${CMAKE_SOURCE_DIR}/resource/ DESTINATION ${PROJECT_BINARY_DIR}/resource/)
-# add_definitions(-DRESOURCE_DIR="${PROJECT_BINARY_DIR}/resource/")
+project(sangatsu_camera)
 
 # Create Main project
 set(SOURCES
